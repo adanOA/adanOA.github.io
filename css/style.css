@@ -1,0 +1,160 @@
+﻿*{
+	margin: 0;
+	font-family: Arial,Verdana, sans-serif;
+}
+h1 {text-align: center;
+	margin: 10px;
+}
+h2 {margin: 10px;}
+p {margin-left: 10px;}
+figcaption {text-align: center;}
+img {margin-left: 360px;}
+
+#menu {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	min-height: 40px;
+	padding: 15px 10px 15px 0px;
+	margin: 0 auto;
+	background-color: black;
+}
+
+#menu ul {
+	list-style-type: none;
+}
+
+#menu ul li a {
+	display: inline-block;
+	float: left;
+	text-decoration: none;
+	color: black;
+	background-color: orange;
+	padding: 8px 25px;
+	margin-right: 15px;
+	transition: background-color 0.3s linear;
+}
+
+#menu ul li a:hover {
+	color: white;
+	background-color: #FFBC39;
+	border-bottom: 3px solid lightgrey;
+}
+
+.boton-leer-mas {
+	float: right;
+	width: 100px;
+	height: auto;
+	padding: 10px;
+	background-color: #FFBC39;
+	text-align: center;
+	transition: background-color 0.3s linear;
+}
+
+.boton-leer-mas:hover {
+	background-color: white;
+}
+
+.boton-leer-mas a {
+	color: black;
+	text-decoration: none;
+}
+
+
+
+.clear {clear: both;}
+
+#contenedor-principal {width: 100%;
+					  background-color: orange;
+}
+
+#contenedor-padre {
+	width: 100%;
+	height: 45%;
+	background-color: orange;
+}
+
+#columnas {
+	column-count: 2;
+}
+
+#columna1 {
+	column-count: ;
+	column-gap: 5px;
+	column-rule: 1px solid #fff;
+
+}
+
+#columna2 {
+	column-count: 1;
+	column-gap: 5px;
+	column-rule: 1px solid #fff;
+}
+
+
+
+#contenedor-hijo {
+	float: right;
+	width: 30%;
+	height: 30%;
+	background-color:orange;
+	text-align: justify;
+	margin: 10px;
+}
+
+#contenedor-hijo-1{
+	float: left;
+	width: 30%;
+	height: 30%;
+	background-color:orange;
+	text-align: justify;
+	margin: 10px;
+}
+
+#contenedor-hijo-2{
+	float: right;
+	width: 30%;
+	height: 30%;
+	background-color:orange;
+	text-align: justify;
+	margin:10px;
+}
+
+#contenedor-hijo-3 {
+	float: right;
+	width: 30%;
+	height: 30%;
+	background-color:orange;
+	text-align: justify;
+	margin:10px;
+}
+
+}
+
+#contenedor-padre p {margin-left: 10px;}
+
+#contenedor-hijo h1 {text-align: center;}
+#contenedor-hijo img { margin:auto; margin-left: 35px;}
+#contenedor-hijo p {margin: 10px;}
+
+#contenedor-hijo-1 h1 {text-align: center;}
+#contenedor-hijo-1 img { margin:auto; margin-left: 35px;}
+#contenedor-hijo-1 p {margin: 10px;}
+
+#contenedor-hijo-2 h1 {text-align: center;}
+#contenedor-hijo-2 img { margin:auto; margin-left: 35px;}
+#contenedor-hijo-2 p {margin: 10px;}
+
+#contenedor-hijo-3 h1 {text-align: center;}
+#contenedor-hijo-3 img { margin:auto; margin-left: 35px;}
+#contenedor-hijo-3 p {margin: 10px;}
+
+#footer {text-align: center;
+	width: 100%;
+	height: auto;
+	min-height: 40px;
+	padding: 15px 10px 15px 0px;
+	margin: 0 auto;
+	background-color: black;
+	color: white;
+}
